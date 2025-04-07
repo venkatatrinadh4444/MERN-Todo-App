@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.itemContainer {
+  background-image: linear-gradient(to right,#add8e653,#0000ff4d);
+}
+.itemContainer div:first-child {
+  font-size: 20px;
+  color:black;
+}
+.itemContainer button svg {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.itemContainer button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:576px) {
+  .itemContainer {
+    margin-left: 8px !important;
+  }
+}
